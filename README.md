@@ -102,7 +102,7 @@ This project is open-source and available under the MIT License.
 ## Author
 
 Safeer Ahmed  
-Contact: [Your Email or GitHub Profile Link]
+Contact: safeerkhan5471@gmail.com
 
 ---
 
