@@ -1,7 +1,7 @@
 # smart-glasses-obstacle-falldetection
 IoT-enabled smart glasses with obstacle avoidance and fall detection using MPU-6050, ESP-32 and C++.
 
-This project is a **Smart Glasses system** designed to assist visually impaired users by providing real-time object detection, fall detection, and manual emergency alerts. It integrates sensors, Wi-Fi connectivity, Firebase database, and the Blynk app for remote monitoring and alerting.
+This project is a **Smart Glasses system** designed to assist visually impaired users by providing real-time object detection, fall detection, and manual emergency alerts. It integrates sensors, Wi-Fi connectivity, Firebase database, and the Blynk app for remote monitoring and alerting. This project is completely made in wokwi online simulation software, but with all these hardware and code that i have added it can be easily made in real life prototype.
 
 ---
 
