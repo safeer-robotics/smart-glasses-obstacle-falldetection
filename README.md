@@ -49,7 +49,8 @@ This project is a **Smart Glasses system** designed to assist visually impaired 
 5. **Remote Monitoring:** Alerts and sensor data are pushed to Firebase and displayed on the Blynk app in real time.
 
 ---
-
+## Demo (Wokwi Simulation)
+- Wokwi project link: https://wokwi.com/projects/430975671899423745
 ## Usage Instructions
 
 1. Connect all hardware components as per pin definitions in the code.
