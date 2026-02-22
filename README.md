@@ -1,13 +1,16 @@
 # smart-glasses-obstacle-falldetection
 IoT-enabled smart glasses with obstacle avoidance and fall detection using MPU-6050, ESP-32 and C++.
 
-This project is a **Smart Glasses system** designed to assist visually impaired users by providing real-time object detection, fall detection, and manual emergency alerts. It integrates sensors, Wi-Fi connectivity, Firebase database, and the Blynk app for remote monitoring and alerting. This project is completely made in wokwi online simulation software, but with all these hardware and code that i have added it can be easily made in real life prototype.
+## Project Summary:
+Assistive smart glasses concept for visually impaired users using ESP32 + ultrasonic sensing + MPU6050 fall detection, with real-time alerts via Blynk and Firebase. Built and tested in Wokwi simulation, designed to be transferable to a physical prototype.
+
+This project is a **Smart Glasses system** designed to assist visually impaired users by providing real-time Obstacles detection, fall detection, and manual emergency alerts. It integrates sensors, Wi-Fi connectivity, Firebase database, and the Blynk app for remote monitoring and alerting. This project is completely made in wokwi online simulation software, but with all these hardware and code that i have added it can be easily made in real life prototype.
 
 ---
 
 ## Features
 
-- **Object Detection:** Uses three ultrasonic sensors to detect objects on the left, center, and right sides. When an object is detected within 100 cm, the system alerts the user with a buzzer and sends an update to Firebase.
+- **Obstacles Detection:** Uses three ultrasonic sensors to detect objects on the left, center, and right sides. When an object is detected within 100 cm, the system alerts the user with a buzzer and sends an update to Firebase.
 - **Fall Detection:** Uses an MPU6050 gyroscope sensor to detect sudden falls by measuring angular velocity. When a fall is detected, the system sends alerts via Blynk and Firebase, displaying location information.
 - **Manual Emergency Alert:** A button allows users to manually trigger an emergency alert. The alert is sent to Firebase and Blynk, along with the preset GPS location.
 - **Real-time Remote Monitoring:** Integration with Firebase Realtime Database and Blynk app for live updates and remote alert notifications.
@@ -40,7 +43,7 @@ This project is a **Smart Glasses system** designed to assist visually impaired 
 ## How It Works
 
 1. **Initialization:** The ESP32 connects to the specified Wi-Fi network and initializes Firebase and Blynk connections.
-2. **Object Detection:** Ultrasonic sensors continuously measure distances. If an object is detected within a threshold (100 cm), the buzzer sounds and a Firebase update is triggered.
+2. **Obstacles Detection:** Ultrasonic sensors continuously measure distances. If an object is detected within a threshold (100 cm), the buzzer sounds and a Firebase update is triggered.
 3. **Fall Detection:** The MPU6050 gyroscope readings are monitored. When the angular velocity exceeds a threshold, it triggers a fall alert with location data.
 4. **Manual Alert:** Pressing the emergency button sends an immediate alert with GPS coordinates, lasting for 10 seconds.
 5. **Remote Monitoring:** Alerts and sensor data are pushed to Firebase and displayed on the Blynk app in real time.
