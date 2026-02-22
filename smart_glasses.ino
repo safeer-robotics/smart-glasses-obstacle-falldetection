@@ -1,7 +1,7 @@
 // Blynk and project setup
-#define BLYNK_TEMPLATE_ID "TMPL5M5RhCpqv"
-#define BLYNK_TEMPLATE_NAME "smart glasses templates"
-#define BLYNK_AUTH_TOKEN "86WZgF6Ga-VK_n2va73WH-uG7na1lIva"
+#define BLYNK_TEMPLATE_ID "YOUR_BLYNK_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR_BLYNK_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "YOUR_BLYNK_AUTH_TOKEN"
 
 #include <Wire.h>
 #include <MPU6050.h>
@@ -12,8 +12,8 @@
 #include <FirebaseESP32.h>
 
 // Wi‑Fi credentials and GPS location
-#define WIFI_SSID "Wokwi-GUEST"
-#define WIFI_PASS ""
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASS "YOUR_WIFI_PASSWORD"
 const char* LOCATION = "51.5074,-0.1278";
 
 // Firebase credentials (host should be without "https://")
